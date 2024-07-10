@@ -11,36 +11,49 @@ Go Ohtani, Ryu Tadokoro, Ryosuke Yamada, Yuki M. Asano, Iro Laina, Christian Rup
 </div>
 
 # Download datasets
-Please download datasets. For ImageNet, it needs to be downloaded from the official website.
 
 ## ImageNet (ILSVRC2012)
-This dataset can be downloaded from [the official website]((https://www.image-net.org/download.php)).
+This dataset can be downloaded from [the official website](https://image-net.org/challenges/LSVRC/2012/2012-downloads.php)).
 ## PASS
-Please see [zenodo](https://zenodo.org/records/6615455) for the raw dataset. Alternatively, execute the following commands:
-```sh
-git clone https://github.com/yukimasano/PASS
-cd PASS
-```
-Note: Before running download.sh, replace line 8 with:
-```sh
-curl https://zenodo.org/records/6615455/files/PASS.${PART}.tar --output PASS.${PART}.tar
-```
-Then run:
-```sh
-source download.sh # maybe change the directory where you want to download it
-```
+You can download this dataset using [this code](https://gist.github.com/yukimasano/421204a5a74a5c150537366a767a1a04).
 
 # Create DiverSeg dataset
+Please make sure that the structure of each downloaded dataset is as follows:
+```sh
+#ImageNet
+/path/to/imagenet/
+    n01440764/
+        n01440764_18.JPEG
+        n01440764_36.JPEG
+        ...
+        ...
+    n01443537/
+        ...
+        ...   
+    ...
+
+#PASS
+/path/to/pass/
+    0/
+        0a0bf4db55141fcfff5da2c8655f93.jpg
+        0a0c781911dcb7ba44737c02e3b961f.jpg
+        ...
+        ...
+    1/
+        ...
+        ...   
+    ...
+```
 Run the following scripts to create DiverSeg-I, DiverSeg-P, and DiverSeg-IP datasets.
 ```sh
 #DiverSeg-I
-source make_DiverSeg.sh path/to/ImageNet-1k path/to/DiverSeg-I DiverSeg-I_list.txt
+source make_DiverSeg.sh /path/to/imagenet /path/to/DiverSeg-I DiverSeg-I_list.txt
 
 #DiverSeg-P
-source make_DiverSeg.sh path/to/PASS path/to/DiverSeg-P DiverSeg-P_list.txt
+source make_DiverSeg.sh /path/to/pass /path/to/DiverSeg-P DiverSeg-P_list.txt
 
 #DiverSeg-IP
-source make_DiverSeg.sh path/to/ImageNet-1k path/to/DiverSeg-IP DiverSeg-I_list.txt
-source make_DiverSeg.sh path/to/PASS path/to/DiverSeg-IP DiverSeg-P_list.txt
+source make_DiverSeg.sh /path/to/imagenet /path/to/DiverSeg-IP DiverSeg-I_list.txt
+source make_DiverSeg.sh /path/to/pass /path/to/DiverSeg-IP DiverSeg-P_list.txt
 ```
 
