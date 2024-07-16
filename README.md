@@ -12,8 +12,8 @@ Go Ohtani, Ryu Tadokoro, Ryosuke Yamada, Yuki M. Asano, Iro Laina, Christian Rup
 
 # Download datasets
 
-## ImageNet (ILSVRC2012)
-This dataset can be downloaded from [the official website](https://image-net.org/challenges/LSVRC/2012/2012-downloads.php)).
+## ImageNet-1k (ILSVRC2012)
+This dataset can be downloaded from [the official website](https://image-net.org/challenges/LSVRC/2012/2012-downloads.php).
 ## PASS
 You can download this dataset using [this code](https://gist.github.com/yukimasano/421204a5a74a5c150537366a767a1a04).
 
