@@ -12,7 +12,7 @@ Go Ohtani, Ryu Tadokoro, Ryosuke Yamada, Yuki M. Asano, Iro Laina, Christian Rup
 
 # Download datasets
 
-## ImageNet-1k (ILSVRC2012)
+## ImageNet (ImageNet-1k)
 This dataset can be downloaded from [the official website](https://image-net.org/challenges/LSVRC/2012/2012-downloads.php).
 ## PASS
 You can download this dataset using [this code](https://gist.github.com/yukimasano/421204a5a74a5c150537366a767a1a04).
@@ -56,4 +56,28 @@ source make_DiverSeg.sh /path/to/pass /path/to/DiverSeg-P DiverSeg-P_list.txt
 source make_DiverSeg.sh /path/to/imagenet /path/to/DiverSeg-IP DiverSeg-I_list.txt
 source make_DiverSeg.sh /path/to/pass /path/to/DiverSeg-IP DiverSeg-P_list.txt
 ```
+
+# Citation
+
+If you use our work in your research, please cite our paper:
+
+```bibtex
+@InProceedings{xxxxxx,
+    title={Rethinking Image Super-Resolution from Training Data Perspectives},
+    author={Go Ohtani, Ryu Tadokoro, Ryosuke Yamada, Yuki M. Asano, Iro Laina, Christian Rupprech, Nakamasa Inoue, Rio Yokota, Hirokatsu Kataoka and Yoshimitsu Aoki},
+    booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
+    year={2024},
+}
+```
+# Terms of use
+All code within the repository follows the MIT License. Each dataset follows the license of the original dataset. The terms of use are as follows:
+- DiverSeg-I: non-commercial research and educational purposes
+- DiverSeg-P: commercial/research purposes under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
+- DiverSeg-IP: non-commercial research and educational purposes
+
+For more details, please refer to the following links:
+- ImageNet [the official website](https://www.image-net.org/download)
+- PASS [the official website](https://www.robots.ox.ac.uk/~vgg/data/pass/)
+
+The authors affiliated in National Institute of Advanced Industrial Science and Technology (AIST), Keio University, and Tokyo Institute of Technology (TITech) are not responsible for the reproduction, duplication, copy, sale, trade, resell or exploitation for any commercial purposes, of any portion of the datas and any portion of derived the data. In no event will we be also liable for any other damages resulting from this data or any derived data.
 
