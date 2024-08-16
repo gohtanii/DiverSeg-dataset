@@ -1,0 +1,6 @@
+dataset_paths:
+  DF2K: 'blockiness_per_dataset/DF2K.txt'
+  DF2K_q95: 'blockiness_per_dataset/DF2K_q95.txt'
+  DF2K_q85: 'blockiness_per_dataset/DF2K_q85.txt'
+  DF2K_q75: 'blockiness_per_dataset/DF2K_q75.txt'
+  DF2K_q50: 'blockiness_per_datasetDF2K_q50.txt'

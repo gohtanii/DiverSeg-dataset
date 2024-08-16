@@ -1,0 +1,4 @@
+dataset_paths:
+  ImageNet-1k: 'blockiness_per_dataset/blockiness_ImageNet-1k.txt'
+  PASS: 'blockiness_per_dataset/blockiness_.txt'
+  Places365: 'blockiness_per_dataset/blockiness_Places365.txt'
