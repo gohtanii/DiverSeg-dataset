@@ -99,5 +99,4 @@ For more details, please refer to the following links:
 - ImageNet [the official website](https://www.image-net.org/download)
 - PASS [the official website](https://www.robots.ox.ac.uk/~vgg/data/pass/)
 
-The authors affiliated in National Institute of Advanced Industrial Science and Technology (AIST), Keio University, and Tokyo Institute of Technology (TITech) are not responsible for the reproduction, duplication, copy, sale, trade, resell or exploitation for any commercial purposes, of any portion of the datas and any portion of derived the data. In no event will we be also liable for any other damages resulting from this data or any derived data.
-
+The authors affiliated with National Institute of Advanced Industrial Science and Technology (AIST), Keio University, University of Tsukuba, University of Amsterdam, University of Oxford, and Tokyo Institute of Technology (TITech) are not responsible for the reproduction, duplication, copying, sale, trade, resale, or exploitation of any portion of the data or any derived data for commercial purposes. Additionally, we will not be liable for any damages resulting from the use of this data or any derived data.
