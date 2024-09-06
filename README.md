@@ -3,7 +3,7 @@ This repository provides instructions for downloading datasets and scripts for c
 
 Details are described in the following paper:
 
-"Rethinking Image Super Resolution from Training Data Perspectives",      
+"Rethinking Image Super-Resolution from Training Data Perspectives",      
 Go Ohtani, Ryu Tadokoro, Ryosuke Yamada, Yuki M. Asano, Iro Laina, Christian Rupprecht, Nakamasa Inoue, Rio Yokota, Hirokatsu Kataoka, and Yoshimitsu Aoki, In ECCV2024.
 [[arXiv](https://arxiv.org/pdf/2409.00768)]
 
