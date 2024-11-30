@@ -63,7 +63,7 @@ source make_DiverSeg.sh /path/to/pass /path/to/DiverSeg-IP DiverSeg-P_list.txt
 If you use our work in your research, please cite our paper:
 
 ```bibtex
-@InProceedings{ohtani2024dseg,
+@InProceedings{ohtani2024rethinking,
     title={Rethinking Image Super-Resolution from Training Data Perspectives},
     author={Ohtani, Go and Tadokoro, Ryu and Yamada, Ryosuke and Asano, Yuki M. and Laina, Iro and Rupprech, Christian and Inoue, Nakamasa and Yokota, Rio and Kataoka, Hirokatsu  and Aoki, Yoshimitsu},
     booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
